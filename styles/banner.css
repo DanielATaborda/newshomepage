@@ -1,0 +1,35 @@
+.main{
+    padding: 0 25px;
+    font-family: var(--fonte-primaria);
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.banner-img-desktop{
+    display: none;
+}
+
+.banner-title{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.banner-text{
+    font-size: .9rem;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+
+.banner-btn{
+    background-color: var(--cor-soft-red);
+    padding: 10px 20px;
+    color: var(--cor-white);
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.banner-img,.banner-title,.banner-text,.banner-btn{
+    margin-bottom: 25px;
+}
